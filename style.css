@@ -58,10 +58,25 @@ section.imagem{
     background-color: rgb(80, 77, 77);
     color: white;
     padding: 10px;
+    background-position: right center;
+    background-size: cover;
+    background-attachment: fixed;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.26);
+}
+section > p {
+    padding-bottom: 2em;
+    margin-left: 15px;
 }
 section.imagem > p {
     display: inline-block;
-    background-color: rgb(58, 56, 56);
+    background-color: rgba(58, 56, 56, 0.356);
+    text-shadow: 1px 1px 0px rgba(43, 42, 42, 0.938);
+}
+section#img01 {
+    background-image: url('background001.jpg');
+}
+section#img02 {
+    background-image: url("background002.jpg");
 }
 footer {
     background-color: black;
